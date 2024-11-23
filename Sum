@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int sum(int a,int b){
+    return a+b;
+}
+
+
+int main()
+{
+    int a,b;
+    scanf("%d",&a);
+    
+    scanf("%d",&b);
+     int result= sum(a,b);  // function call
+         
+         printf("Sum of %d and %d is %d",a,b,result );
+         return 0;
+}
